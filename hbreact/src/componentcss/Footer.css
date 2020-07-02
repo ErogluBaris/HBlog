@@ -1,0 +1,47 @@
+footer {
+    background-color: rgb(73, 79, 85);
+}
+
+footer .col-sm-4 h4{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: rgb(192, 141, 235);
+}
+
+footer .col-sm-4 p {
+    font-size: 12px !important;
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 25px;
+    text-align: left;
+    color: white;
+}
+
+footer #links ul{
+    text-align: center;
+    list-style: none;
+}
+
+footer #links li:hover{
+    text-decoration: underline;
+}
+
+footer #links li{
+    padding-bottom: 5px;
+}
+
+footer .social-logos {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+footer #social a i{
+    color: white;
+    padding: 10px;
+}
+
+footer #social a i:hover{
+    color: thistle;
+}

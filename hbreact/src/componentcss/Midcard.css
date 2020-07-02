@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+#referenceCard {
+    margin-top:50px !important;
+    margin-bottom: 20px !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#bigpicture-card .card:hover{
+    box-shadow: 2px 4px 4px 0 rgb(148,102,218);
+    transition: 0.3s;
+}
+
+#bigpicture-card .card-img-top{
+    object-fit: cover;
+    max-width: 10vw;
+    max-height: 15vh;
+    min-height: 15vh;
+    min-width: 13vw;
+    margin-top: 10px !important;
+}
+
+#bigpicture-card .card-body{
+    min-height: 2vh;
+    padding: 1vh;
+}
+
+#bigpicture-card .card-body h6{
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    margin-top: -35px;
+}
+
+#bigpicture-card .card-body .card-text small{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2vh;
+}
+
+#bigpicture-card a{
+    text-decoration: none;
+    color: black;
+}

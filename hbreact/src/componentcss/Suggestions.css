@@ -1,0 +1,45 @@
+#suggestionCards .card {
+    justify-content: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 0px;
+}
+
+.col-sm-2 img{
+    width: 100px !important;
+}
+
+#suggestionCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(248,249,249);
+    margin-top: -15px;
+    
+}
+
+#SuggestCard {
+    border-radius: 14px;
+    display: flex;
+    width: 60vw;
+    height: 70vh;
+    overflow-x: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 90px;
+}
+
+#SuggestCard h4 {
+    font-size: 20px !important;
+}
+
+#Sugbutton {
+    background-color: white;
+    border-radius: 14px;
+    padding: 10px !important;
+}
+
+#Sugbutton:hover {
+    cursor: pointer;
+    background-color: rgb(245, 231, 253);
+}

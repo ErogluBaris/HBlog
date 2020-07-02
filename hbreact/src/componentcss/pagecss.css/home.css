@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.backimage1 {
+    background-image: url("https://viajandoconfran.com/wp-content/uploads/2019/03/soltar-dejar-ir-minimalismo-crecer.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:600px;
+}
+
+.backimage1 .main{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.backimage1 .main::before {
+    content: "\201c";
+    font-size: 80px;
+    margin-bottom: -20px;
+    margin-top: -40px;
+}
+.backimage1 .main::after {
+    content: "\201c";
+    font-size: 80px;
+}
+
+#content-deneme{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height:250px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: initial;
+}
+
+#content-deneme h1 {
+    padding: 29px;;
+    display: block !important;
+    text-align: center !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+.backimage2{
+    background-image: url("https://miro.medium.com/max/7000/1*STTTVL5jx050alkYv1iq9w.jpeg");
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    padding: 100px;
+}

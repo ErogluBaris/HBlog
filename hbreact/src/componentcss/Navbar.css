@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#hbheader li, li a {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#hbheader ul {
+    margin-bottom: 0px !important;
+}
+
+#hbheader {
+    background-color: #34495E;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 10%;
+    margin-bottom: 0px;
+}
+
+.logohb{
+    margin-right: auto;
+    font-size: 28px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    user-select: none;
+}
+
+.logohb:hover{
+    color: white;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: rgb(148,102,218) !important;   
+}
+
+.speciallink {
+    padding: 12px 20px;
+    background-color: rgb(148,102,218);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+.speciallink:hover {
+    background-color: rgb(127, 45, 209);
+}
+

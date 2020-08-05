@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 #mainTextBlock {
     display: block !important;
     margin-right: 10px !important;
@@ -26,12 +29,6 @@
     font-size: 38px;
 }
 
-#mainText p, #mainText a {
-    font-size: 16px !important;
-    display: block !important;
-    margin-bottom: 1rem;
-}
-
 #mainText a{
     color: purple !important;
 }
@@ -53,19 +50,25 @@
     margin-bottom: 55px;
     text-align: center;
     font-size: 60px;
+    font-family: 'Playfair Display', serif;
 }
 
 .content h5{
     font-size: 30px;
     margin-bottom: 20px;
-    margin-top: 50px;   
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content p{
+    font-family: 'PT Serif', serif;
 }
 
 .content ul li{
     font-size: 20px;
     margin-left: 30px;
+    font-family: 'PT Serif', serif;
 }
-
 
 .content h4{
     margin-bottom: 30px;

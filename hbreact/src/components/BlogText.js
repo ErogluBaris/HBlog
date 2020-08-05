@@ -2,46 +2,46 @@ import React, { Component } from 'react';
 import ReactHTMLParser from 'react-html-parser';
 import '../componentcss/BlogText.css';
 
-var div = "<h3>World Wildlife Found</h3><h5>What is World Wildlife Fund?</h5><p>The World Wildlife Fund is an international organization that works in 100 countries and comprise of 5 million volunteers all over the world. The purpose of World Wildlife Fund is stop the harmful impact of humans and adopt a life- style that in harmony with nature. WWF’s works concentrate on 6 areas: </p><ul>    <li>Food</li>    <li>Climate</li>    <li>Fresh Water</li>    <li>Wildlife</li>    <li>Forests</li>    <li>Oceans</li></ul><p>In the official page of World Wildlife Fund, they indicate that ‘These things are not just nice to have they are need to haves. They are the things that make it possible for us to live. And so, ensure our very survival, they must be kept safe.’    WWF’s activities expanded because of increasing environmental threats. Today WWF’s mission statement is threefold:</p><ul>    <li>To conserve the world’s biological diversity</li>    <li>To ensure that the use of renewable natural resources is sustainable </li>    <li>To promote the reduction of pollution and of wasteful consumption </li></ul><p>World Wildlife Fund works with major international organizations such as; World Conservation Organization, European Union, United Nations and The World Bank. WWF also works with local governments and local populations to create innovative solutions. WWF gets good results in its environmental actions and all of them happened with support of donors.</p><h5>History of World Wildlife Fund</h5><p>In 1961, a limited number of organizations around the world such as the International Conservation of Nature (IUCN) were trying to meet conservation needs, but were desperately short of funds. The first call for broad support was the Morges Manifesto, signed in 1961 by 16 of the world’s leading conservationists, including biologist Sir Julian Huxley, IUCN vice president Peter Scoot and director general of the British Nature Conservancy E. M. Nicholson. The Morges Manifesto stated that while the expertise to protect the world environment existed, the financial support to achieve this protection did not. The decision was made to establish the World Wildlife Fund as an international fundraising organization to work in collaboration with existing conservation groups and bring financial support to the conservation movement on a worldwide scale.</p><div class='imgAndText'>    <img src='https://awsassets.panda.org/img/hi_109713_2_350982.jpg'></img>    <p>Public meeting at Royal Society of Arts in London to announce WWF.</p></div><p>The group decided to base its operations in neutral Switzerland, where IUCN had already transferred its headquarters to a villa of in the small town of Morges on the northern shores of Lake Genava. ‘Together,’ both parties agreed, ‘we will harness public opinion and educate the world about the necessity of conservation. Huxley and his colleagues envisioned their work as fundamentally global in scope. In the ‘’The Rise of International Conservation and Postwar Development’’ by Stephen Macekura, the creation of WWF explained. IUCN’s constitution remark that; ‘’Protection of nature is a matter of vital concern to all nations, and the furthering of its primary concern of no single effective international agency.’’ Given this absence of a single institution to promote such protective measures, the founders of IUCN and WWF believed that they had to educate the public, lobby governments, and establish international guidelines for worldwide nature protection in order that the future peace, progress and prosperity of humankind may be assured.</p><h5>Creation of Panda Logo </h5><p>The original panda logo was designed in 1961 by WWF’s founder chairman, the naturalist and painter Sir Peter Scoot. The inspiration for the WWF logo came from Chi-Chi: a giant panda that was living at the London Zoo in 1961, the same year WWF was created. WWF’s founders were aware of the need for a strong, recognizable symbol that would overcome all language barriers. They agreed that the big, furry animal with her appealing, black-patched eyes would make an excellent choice. The first panda sketches were done by the British environmentalist and artist, Gerald Watterson. Based on these, Sir Peter Scoot, drew the first logo.</p>    <img src='https://i.pinimg.com/originals/2c/13/51/2c1351fb240ee2c903f1d0ad79845b4b.gif'></img><div class='imgAndText'>    <img src='https://i.pinimg.com/474x/55/55/d6/5555d63baeb56480f7a58c024ae8d405.jpg'></img>    <p>Sir Peter Scoot visiting a Giant  Panda in the Beijing zoo.</p></div><h5>Works of WWF</h5><p>Since 2008, through its Global Programme Framework, WWF has said it is concentrating its efforts on 13 global initiatives:</p><ul>    <li>Amazon</li>    <li>Arctic</li>    <li>China for global change</li>    <li>Climate and energy</li>    <li>Coastal east Africa</li>    <li>Coral triangle</li>    <li>Forest and climate</li>    <li>Green heart of Africa</li>    <li>Heart of Borneo</li>    <li>Living Himalayas</li>    <li>Market transformation</li>    <li>Smart fishing</li>    <li>Tigers</li></ul><h5>Emerging Threats to Nature and Living Planet Report 2018</h5><p>Global wildlife populations have fallen by %60 in just over four decades, as accelerating pollution, deforestation, climate change and other humanmade factors have created a midnblowing crisis, the WWF has warned in a new report. The total numbers of more than 4000 mammal, bird, fish, reptile and amphibian species declined rapidly between 1970 and 2014, the Living Planet Report 2018 says. Current rates of species extinction are now up to 1000 times higher than before human involvement in animal ecosystems became a factor. Global warming puts nearly half of species in key places at risk. </p><p>The group has called for an international treaty, modeled on the Paris climate agreement, to be drafted to protect wildlife and reverse human impacts on nature. It warned that current efforts to protect the natural world are not keeping up with the speed of humanmade destruction. </p><p>WWF UK Chief Executive Tanya Steele added in a statement, ‘’We are the first generation to know we are destroying our planet and last one that can do anything about it.’’</p><p>The report also found that 90% of seabirds have plastics in their stomachs, compared with 5% in 1960, while about half of the world’s shallow-water corals have been lost in the past three decades.</p><p>Animal life dropped most rapidly in tropical areas of Latin America and the Caribbean, with an 89% fall in populations since 1970, while species that rely on freshwater habitats, like frogs and river fish, declined in population by 83%.</p><img src='https://bottlecapjourney.files.wordpress.com/2011/10/chris-jordan.jpg'></img><p>Every single albatross in Midway Island has been fed plastics according to Matt Brown from US Fish and Wildlife Service. Seabirds’ bones and their feathers decompose, because that’s natural. What’s left behind is the plastic. CNN’s new shows that by 2050 there will be more plastic in the ocean than fish, by weight. </p><h5>What can we do for protect the nature?</h5><p>Issues like pollution, depletion of resources, the rise of consumerism and the throw away culture have led to serious problems. As Margaret Mead said, ‘’Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it’s the only thing that ever has.’’</p><p>What can we do about it?</p><ul>    <li>Conserve energy</li>    <li>Stop or reduce your use of disposable plastics</li>    <li>Volunteer with a conservation group</li>    <li>Buy products with less packaging etc…</li></ul><p>Never forget that all simple, easy changes will save our planet. Together we can save the world.</p><h5>How is WWF run?</h5><p>WWF is an independent foundation registered under Swiss law, governed by a Board of Trustees under an international president. Currently the president is Pavan Sukhdev. WWF International is the secretariat for WWF’s global organization, and  is based out of four regional hubs. The role of the secretariat is to lead and coordinate the WWF Network of offices around the world, through developing policies and priorities, fostering global partnerships and providing supportive measures in order to help make the global operation run as smoothly as it can. </p><p>The various WWF offices around the world come under two categories:</p><ul>    <li>Those that can raise funds and carry out work autonomously known as ‘’National Organizations’’</li>    <li>Those that must work under the direction of one of the independent WWF offices known as ‘’Programme Offices’’</li></ul><p>In all cases, WWF’s offices carry out conservation work such as practical field projects, scientific studies, advising local and national governments on environmental policy, promoting environmental education, and raising awareness of environmental issues.</p><p>A specialist  WWF office in Brussels works to influence the policies and activities of the European Union, while a second WWF office in Washington DC works to influence global institutions involved in international economic issues, such as the World Bank. </p><p>In all, WWF has primary offices and associates in over 100 countries around the world, working as a team towards an overall goal: to halt or reverse the destruction of our natural environment. </p>"
-
 
 class BlogText extends Component {
+    state={
+        blogtext: "hello"
+    }
     componentDidMount() {
-        this.deneme();
         this.sendData()
     }
-    async sendData(Plug) {
+    async sendData() {
         const requestOptions = {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ text: this.props.text})
+            headers: { 'Content-Type': 'application/json'},
+            body: JSON.stringify({ id: this.props.id}),
+            
         };
         try {
-            const proxyurl = "https://cors-anywhere.herokuapp.com/";
-            const url = 'http://127.0.0.1:8080/getBlogText'
-            const response = await fetch(proxyurl+url, requestOptions);
+            const url = '/getText'
+            const response = await fetch(url, requestOptions);
             const data = await response.json();
-            if (data.Response === "SUCCESS") {
-                div = data["text"]
+            if (data["response"] === "Failure") {
+                window.alert("An error has occurred. Please try again later")
             }
             else {
-                window.alert("An error has occurred. Please try again later")
+                console.log("Message received..")
+                this.setState({
+                    blogtext: data["response"]
+                })
+                console.log(data["response"]);
             }
         } catch (error) {
             window.alert("API server might not be working. Please check API or contact us.")
         }
     }
 
-    deneme = () =>{
-        console.log(this.props.text)
-    }
-
     render() {
-        const {text} = this.props;
+        const {id} = this.props;
         return (
                 <div className="row">
                     <div className="content">
-                    {ReactHTMLParser (div)}
+                        {ReactHTMLParser(this.state.blogtext)}
                     </div>
                 </div>
         )

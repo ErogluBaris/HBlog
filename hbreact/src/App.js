@@ -10,6 +10,7 @@ import categories from './pages/categories';
 import example2 from './pages/example2';
 import example4 from './pages/example4';
 import textpage from './pages/textpage';
+import writings from './pages/writings';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/example2" component={example2}/>
       <Route path="/sonyazilar" component={last}/>
       <Route path="/kategoriler" component={categories}/>
+      <Route path="/kategoriler/:categ" component={writings}/>
       <Route path="/yazilar/:id" component={textpage}/>
       <Route path="/example4" component={example4}/>
       <Footer/>

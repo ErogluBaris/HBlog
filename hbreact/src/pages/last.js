@@ -12,11 +12,11 @@ class last extends Component {
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
-            body: JSON.stringify({ id: this.props.id}),
+            
             
         };
         try {
-            const url = '/categories'
+            const url = '/last'
             const response = await fetch(url, requestOptions);
             const data = await response.json();
             if (data["response"] === "Failure") {
@@ -34,7 +34,7 @@ class last extends Component {
     }
     render() {
         return (
-            <div id="last">
+            <div>
                 <h1>Son Yazılar</h1>
                 <div className="row row-cols-1 row-cols-md-2" id="last-card-grid">
                     {

@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
+import Writing from '../components/Writing';
 
 class writings extends Component {
+    constructor(props) {
+        super(props)
+        const {params} = props.match;
+        this.state = {
+            params: params,
+            boxes: ""
+        }
+    }
     componentDidMount() {
         this.sendData()
     }
     async sendData() {
+        console.log(this.state.params.categ)
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
-            body: JSON.stringify({ category: this.props.categ}),
+            body: JSON.stringify({ category: this.state.params.categ}),
         };
         try {
             const url = '/category'
@@ -18,9 +28,11 @@ class writings extends Component {
                 window.alert("An error has occurred. Please try again later")
             }
             else {
-                console.log("Message received..")
                 this.setState({
                     boxes: data
+                })
+                Object.entries(this.state.boxes).map(key=>{
+                    console.log(key[1].id)
                 })
             }
         } catch (error) {
@@ -29,15 +41,21 @@ class writings extends Component {
     }
     render() {
         return (
-            <div className="row">
-                <div className="row row-cols-1 row-cols-md-2" id="last-card-grid">
-                    {
-                        Object.entries(this.state.boxes).map(key => (
-                            <Writing Title={key[1].title} Text={key[1].text} Writer={key[1].writer} Image={key[1].image} Time={key[1].time} Link={"yazilar/"+key["0"]}/>
-                        ))
-                    }
+            <div>
+                <h1>Başlık</h1>
+                <div className="row row-cols-1 row-cols-md-2" style={{display:"flex", justifyContent:"center"}}>
+                
+                {   
+                    Object.entries(this.state.boxes).map(value => (
+                        <Writing Title={value[1].title} Text={value[1].text} Writer={value[1].writer} Image={value[1].image} Time={value[1].time} Link={this.state.params.categ+"/"+value[1].id}/>
+                        
+                    ))
+                }
                 </div>
+
+
             </div>
+                
                 
         )
     }

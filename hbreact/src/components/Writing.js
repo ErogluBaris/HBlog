@@ -14,7 +14,7 @@ class Writing extends Component {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">{Title}</h5>
-                                <p className="card-text">{Text}</p>
+                                <p className="card-text" style={{overflow:"hidden", textOverflow:"ellipsis", whiteSpace: "nowrap"}}>{Text}</p>
                                 <div className="text-muted"><cite>{Writer}</cite></div>
                                 <p className="card-text"><small className="text-muted">{Time} dakika önce</small></p>
                             </div>

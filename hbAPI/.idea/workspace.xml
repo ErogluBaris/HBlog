@@ -2,20 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5d728b-5454-4466-803d-20d7115b3f16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbAPI_win/.idea/hbAPI_win.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbreact/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbreact/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API.py" beforeDir="false" afterPath="$PROJECT_DIR$/API.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbreact/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbreact/src/componentcss/BlogText.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/componentcss/BlogText.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbreact/src/componentcss/Writing.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/componentcss/Writing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbreact/src/components/BlogText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/components/BlogText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbreact/src/components/Midcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/components/Midcard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbreact/src/components/Writing.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/components/Writing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbreact/src/pages/example3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbreact/src/pages/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/pages/categories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hbreact/src/pages/last.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/pages/last.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbreact/src/pages/textpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/pages/textpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hbreact/src/pages/writings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/pages/writings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hbAPI" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,19 +52,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.API">
-    <configuration name="API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="API" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="hbAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="SDK_HOME" value="C:\Users\brs_e\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -85,13 +102,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hbAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.API" />
+      <item itemvalue="Python.scratch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.API" />
+        <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -114,52 +154,82 @@
       <workItem from="1595533232542" duration="325000" />
       <workItem from="1595858068809" duration="50000" />
       <workItem from="1596568014525" duration="2020000" />
+      <workItem from="1596622715747" duration="5061000" />
+      <workItem from="1596731181139" duration="4421000" />
+      <workItem from="1596816667831" duration="3027000" />
+      <workItem from="1596882185596" duration="6593000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="36" key="#API" timestamp="1594470048784">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state x="379" y="0" key="#API" timestamp="1596622926767">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="379" y="0" key="#API/0.0.1366.728@0.0.1366.728" timestamp="1596622926767" />
     <state x="379" y="36" key="#API/0.36.1366.732@0.36.1366.732" timestamp="1594470048784" />
-    <state x="147" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594470113407">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623793614">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596623793614" />
     <state x="147" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1366.732@0.36.1366.732" timestamp="1594470113407" />
-    <state x="2069" y="115" key="FileChooserDialogImpl" timestamp="1595858116790">
-      <screen x="1599" y="0" width="1366" height="768" />
+    <state x="470" y="109" key="FileChooserDialogImpl" timestamp="1596623829409">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="470" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596623829409" />
     <state x="470" y="146" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1594639894340" />
     <state x="2069" y="115" key="FileChooserDialogImpl/1599.0.1366.768/0.36.1600.864@1599.0.1366.768" timestamp="1595858116790" />
-    <state width="1320" height="105" key="GridCell.Tab.0.bottom" timestamp="1596570034080">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1323" height="164" key="GridCell.Tab.0.bottom" timestamp="1596888784070">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596888784070" />
     <state width="1320" height="105" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1320" height="105" key="GridCell.Tab.0.center" timestamp="1596570034080">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1323" height="164" key="GridCell.Tab.0.center" timestamp="1596888784070">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596888784070" />
     <state width="1320" height="105" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1320" height="105" key="GridCell.Tab.0.left" timestamp="1596570034080">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1323" height="164" key="GridCell.Tab.0.left" timestamp="1596888784070">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596888784070" />
     <state width="1320" height="105" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1320" height="105" key="GridCell.Tab.0.right" timestamp="1596570034080">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1323" height="164" key="GridCell.Tab.0.right" timestamp="1596888784070">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596888784070" />
     <state width="1320" height="105" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state x="184" y="37" key="SettingsEditor" timestamp="1594470100675">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state x="184" y="1" key="SettingsEditor" timestamp="1596883353734">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="184" y="1" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596883353734" />
     <state x="184" y="37" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1594470100675" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596882185418">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596882185418" />
     <state x="299" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594490686076">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="299" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.36.1366.732@0.36.1366.732" timestamp="1594490686076" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hbAPI$API.coverage" NAME="API Coverage Results" MODIFIED="1596568031416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hbAPI$API.coverage" NAME="API Coverage Results" MODIFIED="1596888758010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hbAPI$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1596886603357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>

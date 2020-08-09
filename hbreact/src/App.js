@@ -21,9 +21,9 @@ function App() {
       <Route path="/example" component={example}/>
       <Route path="/example2" component={example2}/>
       <Route path="/sonyazilar" component={last}/>
-      <Route path="/kategoriler" component={categories}/>
-      <Route path="/kategoriler/:categ" component={writings}/>
-      <Route path="/yazilar/:id" component={textpage}/>
+      <Route path="/kategoriler" exact component={categories}/>
+      <Route path="/kategoriler/:categ" exact component={writings}/>
+      <Route path="/kategoriler/:categ/:id" component={textpage}/>
       <Route path="/example4" component={example4}/>
       <Footer/>
     </div>

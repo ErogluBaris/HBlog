@@ -1,12 +1,11 @@
-#last #last-card-grid{
+#last-card-grid{
     display: flex;
     justify-content: center;
 }
 
-#last h1{
+h1{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 
@@ -41,7 +40,7 @@
     transition: 0.3s;
 }
 
-#last .card p {
+.card p {
     margin-bottom: 5px;
     font-size: 15px;
     text-overflow: ellipsis;

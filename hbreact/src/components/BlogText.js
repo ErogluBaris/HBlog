@@ -14,7 +14,7 @@ class BlogText extends Component {
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
-            body: JSON.stringify({ id: this.props.id}),
+            body: JSON.stringify({category:this.props.categ, id: this.props.id}),
             
         };
         try {
@@ -37,7 +37,7 @@ class BlogText extends Component {
     }
 
     render() {
-        const {id} = this.props;
+        const {categ, id} = this.props;
         return (
                 <div className="row">
                     <div className="content">

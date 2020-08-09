@@ -8,7 +8,7 @@ class textpage extends Component {
         return (
             <div className="row">
                 <div className="content">
-                    <BlogText id={params.id}/>
+                    <BlogText categ={params.categ} id={params.id}/>
                     <Referencecard/>
                 </div>
             </div>

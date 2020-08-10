@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import home from './pages/home'
 import example from './pages/example';
 import Navbar from './components/Navbar.js';
@@ -14,20 +14,23 @@ import writings from './pages/writings';
 
 function App() {
   return (
-  <Router>
-    <div className="App"> 
-      <Navbar/>
-      <Route  path="/" exact component={home}/>
-      <Route path="/example" component={example}/>
-      <Route path="/example2" component={example2}/>
-      <Route path="/sonyazilar" component={last}/>
-      <Route path="/kategoriler" exact component={categories}/>
-      <Route path="/kategoriler/:categ" exact component={writings}/>
-      <Route path="/kategoriler/:categ/:id" component={textpage}/>
-      <Route path="/example4" component={example4}/>
-      <Footer/>
+    
+      <div className="App">
+        <Router>
+          <Navbar/>
+          <Switch>
+            <Route path="/" exact component={home}/>
+            <Route path="/example" component={example}/>
+            <Route path="/example2" component={example2}/>
+            <Route path="/sonyazilar" component={last}/>
+            <Route path="/kategoriler/:categ" component={writings}/>
+            <Route path="/kategoriler" component={categories}/>
+            <Route path="/:id" exact component={textpage}/>
+            <Route path="/example4" component={example4}/>
+          </Switch>
+          <Footer/>
+        </Router>
     </div>
-  </Router>
   );
 }
 

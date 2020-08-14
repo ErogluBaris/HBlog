@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5d728b-5454-4466-803d-20d7115b3f16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API.py" beforeDir="false" afterPath="$PROJECT_DIR$/API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hbreact/src/pages/writings.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hbreact/src/pages/writings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +154,10 @@
       <workItem from="1596882185596" duration="6593000" />
       <workItem from="1596987658319" duration="1237000" />
       <workItem from="1597045597008" duration="4870000" />
+      <workItem from="1597219886380" duration="1445000" />
+      <workItem from="1597252818919" duration="1035000" />
+      <workItem from="1597319776682" duration="860000" />
+      <workItem from="1597418843413" duration="1846000" />
     </task>
     <servers />
   </component>
@@ -196,25 +198,29 @@
     <state x="470" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596623829409" />
     <state x="470" y="146" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1594639894340" />
     <state x="2069" y="115" key="FileChooserDialogImpl/1599.0.1366.768/0.36.1600.864@1599.0.1366.768" timestamp="1595858116790" />
-    <state width="1323" height="135" key="GridCell.Tab.0.bottom" timestamp="1597052130509">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1597420230016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597052130509" />
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561256" />
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
     <state width="1320" height="105" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1323" height="135" key="GridCell.Tab.0.center" timestamp="1597052130509">
+    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1597420230016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="135" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597052130509" />
+    <state width="1323" height="208" key="GridCell.Tab.0.center/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561256" />
+    <state width="1323" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
     <state width="1320" height="105" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1323" height="135" key="GridCell.Tab.0.left" timestamp="1597052130509">
+    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1597420230016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="135" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597052130509" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561255" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
     <state width="1320" height="105" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1323" height="135" key="GridCell.Tab.0.right" timestamp="1597052130509">
+    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1597420230016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="135" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597052130509" />
+    <state width="1323" height="208" key="GridCell.Tab.0.right/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561256" />
+    <state width="1323" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
     <state width="1320" height="105" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1597052130505">
       <screen x="0" y="0" width="1366" height="728" />
@@ -237,17 +243,18 @@
     </state>
     <state x="184" y="1" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596883353734" />
     <state x="184" y="37" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1594470100675" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597045597420">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597418844881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597045597420" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597219887490" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597418844881" />
     <state x="299" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594490686076">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="299" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.36.1366.732@0.36.1366.732" timestamp="1594490686076" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hbAPI$API.coverage" NAME="API Coverage Results" MODIFIED="1597049755664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hbAPI$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1597052046927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/hbAPI$API.coverage" NAME="API Coverage Results" MODIFIED="1597420209341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hbAPI$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1597420230001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>

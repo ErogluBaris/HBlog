@@ -5,7 +5,7 @@ from DB import DBConnection
 
 app = Flask(__name__)
 
-db = DBConnection("localhost", "root", "", "hblog")
+db = DBConnection("ec2-18-157-161-140.eu-central-1.compute.amazonaws.com", "hb", "211116#Hb", "hblog")
 
 def prepareCategoryResponse(liste): # to create category response
     response = {}

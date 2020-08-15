@@ -1,4 +1,4 @@
-#coding=utf8
+
 
 from flask import Flask, request
 from DB import DBConnection

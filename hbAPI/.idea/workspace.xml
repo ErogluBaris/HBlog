@@ -24,9 +24,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="hbAPI" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -51,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.scratch">
+  <component name="RunManager" selected="Python.API">
     <configuration name="API" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="hbAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,7 +56,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\brs_e\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -158,24 +155,24 @@
       <workItem from="1597252818919" duration="1035000" />
       <workItem from="1597319776682" duration="860000" />
       <workItem from="1597418843413" duration="1846000" />
+      <workItem from="1597501335654" duration="1313000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="0" key="#API" timestamp="1596622926767">
@@ -187,10 +184,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1597047504684" />
-    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597047968149">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="172" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597501443147">
+      <screen x="0" y="26" width="1600" height="874" />
     </state>
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597047968149" />
+    <state x="172" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.1600.874@0.26.1600.874" timestamp="1597501443147" />
     <state x="147" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1366.732@0.36.1366.732" timestamp="1594470113407" />
     <state x="470" y="109" key="FileChooserDialogImpl" timestamp="1596623829409">
       <screen x="0" y="0" width="1366" height="728" />
@@ -198,29 +196,33 @@
     <state x="470" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596623829409" />
     <state x="470" y="146" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1594639894340" />
     <state x="2069" y="115" key="FileChooserDialogImpl/1599.0.1366.768/0.36.1600.864@1599.0.1366.768" timestamp="1595858116790" />
-    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1597420230016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1554" height="223" key="GridCell.Tab.0.bottom" timestamp="1597505551543">
+      <screen x="0" y="26" width="1600" height="874" />
     </state>
     <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561256" />
     <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
+    <state width="1554" height="223" key="GridCell.Tab.0.bottom/0.26.1600.874@0.26.1600.874" timestamp="1597505551543" />
     <state width="1320" height="105" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1597420230016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1554" height="223" key="GridCell.Tab.0.center" timestamp="1597505551543">
+      <screen x="0" y="26" width="1600" height="874" />
     </state>
     <state width="1323" height="208" key="GridCell.Tab.0.center/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561256" />
     <state width="1323" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
+    <state width="1554" height="223" key="GridCell.Tab.0.center/0.26.1600.874@0.26.1600.874" timestamp="1597505551543" />
     <state width="1320" height="105" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1597420230016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1554" height="223" key="GridCell.Tab.0.left" timestamp="1597505551543">
+      <screen x="0" y="26" width="1600" height="874" />
     </state>
     <state width="1323" height="208" key="GridCell.Tab.0.left/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561255" />
     <state width="1323" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
+    <state width="1554" height="223" key="GridCell.Tab.0.left/0.26.1600.874@0.26.1600.874" timestamp="1597505551543" />
     <state width="1320" height="105" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
-    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1597420230016">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1554" height="223" key="GridCell.Tab.0.right" timestamp="1597505551543">
+      <screen x="0" y="26" width="1600" height="874" />
     </state>
     <state width="1323" height="208" key="GridCell.Tab.0.right/0.0.1366.728/-1600.-137.1600.860@0.0.1366.728" timestamp="1597224561256" />
     <state width="1323" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597420230016" />
+    <state width="1554" height="223" key="GridCell.Tab.0.right/0.26.1600.874@0.26.1600.874" timestamp="1597505551543" />
     <state width="1320" height="105" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1596570034080" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1597052130505">
       <screen x="0" y="0" width="1366" height="728" />
@@ -238,10 +240,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597052130505" />
-    <state x="184" y="1" key="SettingsEditor" timestamp="1596883353734">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="216" y="27" key="SettingsEditor" timestamp="1597501424974">
+      <screen x="0" y="26" width="1600" height="874" />
     </state>
     <state x="184" y="1" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596883353734" />
+    <state x="216" y="27" key="SettingsEditor/0.26.1600.874@0.26.1600.874" timestamp="1597501424974" />
     <state x="184" y="37" key="SettingsEditor/0.36.1366.732@0.36.1366.732" timestamp="1594470100675" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1597418844881">
       <screen x="0" y="0" width="1366" height="728" />
@@ -254,7 +257,7 @@
     <state x="299" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.36.1366.732@0.36.1366.732" timestamp="1594490686076" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hbAPI$API.coverage" NAME="API Coverage Results" MODIFIED="1597420209341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hbAPI$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1597420230001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/hbAPI$API.coverage" NAME="API Coverage Results" MODIFIED="1597501444614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

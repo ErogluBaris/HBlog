@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Writing from '../components/Writing';
+import '../componentcss/pagecss.css/writings.css';
 
 class writings extends Component {
     constructor(props) {
@@ -42,13 +43,16 @@ class writings extends Component {
     render() {
         return (
             <div>
-                <h1>Başlık</h1>
-                <div className="row row-cols-1 row-cols-md-2" style={{display:"flex", justifyContent:"center"}}>
-                {   
-                    Object.entries(this.state.boxes).map(value => (
-                        <Writing Title={value[1].title} Text={value[1].text} Writer={value[1].writer} Image={value[1].image} Time={value[1].time} Link={"/"+value[1].id}/>
-                    ))
-                }
+                <h1 style={{marginTop:"2vh", marginBottom:"2vh"}}>Başlık</h1>
+                <div className="back-img">
+                        
+                </div>
+                <div className="row row-cols-1 row-cols-md-2" style={{display:"flex", justifyContent:"center"}}>    
+                    {   
+                        Object.entries(this.state.boxes).map(value => (
+                            <Writing Title={value[1].title} Text={value[1].text} Writer={value[1].writer} Image={value[1].image} Time={value[1].time} Link={"/"+value[1].id}/>
+                        ))
+                    }
                 </div>
 
 

@@ -5,7 +5,7 @@ class Writing extends Component {
     render() {
         const {Title, Text, Writer, Image, Time, Link} = this.props;
         return (
-                <div className="card mb-2" style={{maxWidth: "540px"}} id="writing">
+                <div className="card mb-2 mr-20" style={{maxWidth: "540px"}} id="writing">
                     <a href={Link}>
                     <div className="row no-gutters">
                         <div className="col-md-4">

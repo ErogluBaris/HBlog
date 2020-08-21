@@ -47,12 +47,18 @@ class writings extends Component {
                 <div className="back-img">
                         
                 </div>
-                <div className="row row-cols-1 row-cols-md-2" style={{display:"flex", justifyContent:"center"}}>    
-                    {   
-                        Object.entries(this.state.boxes).map(value => (
-                            <Writing Title={value[1].title} Text={value[1].text} Writer={value[1].writer} Image={value[1].image} Time={value[1].time} Link={"/"+value[1].id}/>
-                        ))
-                    }
+                <div className="row row-cols-1 row-cols-md-1" style={{display:"flex", justifyContent:"center"}} id="main-writings">    
+                    <div className="col">
+                        {   
+                            Object.entries(this.state.boxes).map(value => (
+                                <Writing Title={value[1].title} Text={value[1].text} Writer={value[1].writer} Image={value[1].image} Time={value[1].time} Link={"/"+value[1].id}/>
+                            ))
+                        }
+                    </div>
+                    <div className="col"><Writing/></div>
+                    <div className="col"><Writing/></div>
+                    <div className="col"><Writing/></div>
+                    <div className="col"><Writing/></div>
                 </div>
 
 
